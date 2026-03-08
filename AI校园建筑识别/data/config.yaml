@@ -1,0 +1,23 @@
+# YOLOv8数据集配置文件
+
+# 训练和验证数据路径
+train: data/images/train
+val: data/images/val
+
+# 测试数据路径（可选）
+test: data/images/test
+
+# 类别数
+nc: 9
+
+# 类别名称
+names:
+  0: 教学楼
+  1: 图书馆
+  2: 体育馆
+  3: 行政楼
+  4: 宿舍楼
+  5: 可回收垃圾
+  6: 厨余垃圾
+  7: 有害垃圾
+  8: 其他垃圾
