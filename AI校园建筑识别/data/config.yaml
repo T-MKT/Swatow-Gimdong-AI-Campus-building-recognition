@@ -8,10 +8,11 @@ val: data/images/val
 test: data/images/test
 
 # 类别数
-nc: 9
+nc: 23
 
 # 类别名称
 names:
+  0: 默认
   1: 可回收垃圾
   2: 厨余垃圾
   3: 有害垃圾
