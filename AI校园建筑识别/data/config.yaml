@@ -8,7 +8,7 @@ val: data/images/val
 test: data/images/test
 
 # 类别数
-nc: 23
+nc: 24
 
 # 类别名称
 names:
